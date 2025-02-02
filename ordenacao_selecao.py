@@ -10,7 +10,7 @@ def busca_menor(arr):
             menor = arr[i]
             menor_indice = i
 
-        return menor_indice
+    return menor_indice
 
 
 def ordenacao_por_selecao(arr: list):
