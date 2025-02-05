@@ -22,10 +22,10 @@ def pesquisa_binaria(lista, item):
 class TestPesquisaBinaria(unittest.TestCase):
 
     def test_lista_impar(self):
-        lista = [1, 3, 5, 7, 9]
-        resultado = pesquisa_binaria(lista, 7)
+        lista =  [2, 5, 7, 8, 11, 12]
+        resultado = pesquisa_binaria(lista, 11)
         assert resultado is not None
-        assert resultado == 3
+        assert resultado == 4
 
     def test_lista_par(self):
         lista = [1, 3, 5, 7, 9, 10]
